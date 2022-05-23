@@ -23,7 +23,7 @@ void main() {
       final json = conversionModel.toJson();
 
       expect(json, isA<Map<String, dynamic>>());
-      expect(json['amount'], 200);
+      expect(json['amount'], '200');
       expect(json['from'], 'USD');
       expect(json['to'], 'BRL');
     });
